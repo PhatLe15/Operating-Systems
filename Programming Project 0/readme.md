@@ -9,7 +9,7 @@ The `child` process is required to:
 The `parent` process is required to:
 - Wait for the child process.
 - Print out ID of child process.
-- Print out exit status with the format: ```c "childpid=%d,exutstatus=%d\n" ```
+- Print out exit status with the format: `"childpid=%d,exutstatus=%d\n"`
 
 Additionally, create a signal handler function and observe the changes. 
 
