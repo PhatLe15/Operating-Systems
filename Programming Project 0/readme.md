@@ -1,12 +1,12 @@
 #Introduction
 The purpose of this project is to get familiar with the creation and uses of child and parent processes.
 
-The child process is required to:
+The `child` process is required to:
 - Print out its ID and new line.
 - Calls pause() system call.
 - Once return from pause system call, exit with code 5.
 
-The parent process is required to:
+The `parent` process is required to:
 - Wait for the child process.
 - Print out ID of child process.
 - Print out exit status with the format: ```c "childpid=%d,exutstatus=%d\n" ```
