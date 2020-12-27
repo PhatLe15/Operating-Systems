@@ -3,7 +3,7 @@ The purpose of this project is to get familiar with the creation and uses of chi
 
 The `child` process is required to:
 - Print out its ID and new line.
-- Calls pause() system call.
+- Calls **pause()** system call.
 - Once return from pause system call, exit with code 5.
 
 The `parent` process is required to:
